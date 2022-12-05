@@ -12,7 +12,7 @@ $ ./snake.exe
 ```
 OR
 ```
-$ gcc snake.c -o snake.exe && ./snake.exe
+$ gcc snake.c -o snake.exe
 ```
 ```
 $ ./snake.exe
