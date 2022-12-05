@@ -1,5 +1,5 @@
 /*-------------------------------------
- * A Simple Console Snake Game        |
+ * A Simple Terminal Based Snake Game |
  * Implementing Queue Data Structure  |
  * Date: 4-12-2022                    |
  * ------------------------------------
