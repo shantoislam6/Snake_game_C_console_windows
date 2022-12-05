@@ -92,9 +92,8 @@ void Instruction()
 // Create Game Dispay
 void Display(int ROWS, int COLS, Game_state* state) {
 
-  // Reset the terminal and flush 'stdout' stream
+  // Reset the terminal
   printf("\033c");
-  fflush(stdout);
 
   // Hide Cursor
   printf("\033[?25l");
@@ -218,8 +217,7 @@ void Input_Handler(
   if (kbhit())
   {
     int k = getch();
-    fflush(stdin);
-
+    
     if ((k == 'w' || k == 'W' || k == UP) && !snake->dy)
       snake_dir(snake, 0, -1);
     if ((k == 's' || k == 'S' || k == DOWN) && !snake->dy)
