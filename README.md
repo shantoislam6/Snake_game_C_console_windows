@@ -10,7 +10,7 @@ Terminal-based Snake game in c for windows console.
 ```
 $ clang snake.c -o snake.exe && ./snake.exe
 ```
-##OR
+## OR
 ```
 $ gcc snake.c -o snake.exe && ./snake.exe
 ```
