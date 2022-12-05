@@ -6,10 +6,14 @@ Terminal-based Snake game in c for windows console.
 ## Play Locally
 ```
 $ clang snake.c -o snake.exe
+```
+```
 $ ./snake.exe
 ```
 OR
 ```
 $ gcc snake.c -o snake.exe && ./snake.exe
+```
+```
 $ ./snake.exe
 ```
