@@ -356,11 +356,11 @@ Play:
   // Game Loop
   while (!state.quit && !state.game_over && !state.reset)
   {
+    Sleep(state.speed);
     Input_Handler(&snake, &state);
     DrawReset(&snake, &food, &state, ROWS, COLS);
     Game_logic(&state, &snake, &food, ROWS, COLS);
     Draw(&snake, &food, &state, ROWS, COLS);
-    Sleep(state.speed);
   }
 
   // If game state is reset mode
