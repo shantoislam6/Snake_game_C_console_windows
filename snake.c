@@ -399,7 +399,7 @@ Play:
     free(snake.body[i]);
   free(snake.body);
 
-  // Otherwise Reset The Terminal and Exit the game;
+  //Reset The Terminal and Exit the game;
   printf("\033c");
 
 }
